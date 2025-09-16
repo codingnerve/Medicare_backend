@@ -1,0 +1,77 @@
+# ---- Node / General ----
+node_modules/
+**/node_modules/
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Runtime / PIDs
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage & test output
+coverage/
+**/coverage/
+.nyc_output/
+
+# Build artifacts
+dist/
+build/
+**/dist/
+**/build/
+# Vite cache
+**/.vite/
+# Storybook / bundlers (if any)
+.storybook-out/
+.cache/
+.parcel-cache/
+
+# Env files (keep examples)
+.env
+.env.*        # .env.local, .env.development, etc.
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Lint/format caches
+.eslintcache
+.stylelintcache
+
+# Editor / IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Framework/hosting (ignore if you use them)
+.vercel/
+.netlify/
+
+# Misc temp
+tmp/
+temp/
+
+# Optional: local uploads (uncomment if you store runtime uploads locally)
+# uploads/
