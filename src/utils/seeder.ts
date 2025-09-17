@@ -33,7 +33,7 @@ export const seedDatabase = async () => {
       password: adminPassword,
       role: "ADMIN",
     });
-
+console.log('Seeded admin:', admin._id);
     // Create test user
     const userPassword = await bcrypt.hash("user123", 12);
     const user = await User.create({
