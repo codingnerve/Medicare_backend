@@ -1,1 +1,10 @@
-
+module.exports = {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api/"
+        }
+    ]
+}
